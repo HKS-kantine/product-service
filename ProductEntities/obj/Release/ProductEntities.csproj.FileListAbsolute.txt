@@ -1,0 +1,6 @@
+C:\fontys\git\HKS-kantine\product-service\ProductEntities\bin\Release\ProductEntities.dll
+C:\fontys\git\HKS-kantine\product-service\ProductEntities\bin\Release\ProductEntities.pdb
+C:\fontys\git\HKS-kantine\product-service\ProductEntities\obj\Release\ProductEntities.csprojAssemblyReference.cache
+C:\fontys\git\HKS-kantine\product-service\ProductEntities\obj\Release\ProductEntities.csproj.CoreCompileInputs.cache
+C:\fontys\git\HKS-kantine\product-service\ProductEntities\obj\Release\ProductEntities.dll
+C:\fontys\git\HKS-kantine\product-service\ProductEntities\obj\Release\ProductEntities.pdb

@@ -1,0 +1,16 @@
+C:\fontys\git\HKS-kantine\product-service\ProductLogic\bin\Release\ProductLogic.dll
+C:\fontys\git\HKS-kantine\product-service\ProductLogic\bin\Release\ProductLogic.pdb
+C:\fontys\git\HKS-kantine\product-service\ProductLogic\bin\Release\ProductEntities.dll
+C:\fontys\git\HKS-kantine\product-service\ProductLogic\bin\Release\ProductFactory.dll
+C:\fontys\git\HKS-kantine\product-service\ProductLogic\bin\Release\AuthenticationData.dll
+C:\fontys\git\HKS-kantine\product-service\ProductLogic\bin\Release\EntityFramework.dll
+C:\fontys\git\HKS-kantine\product-service\ProductLogic\bin\Release\ProductEntities.pdb
+C:\fontys\git\HKS-kantine\product-service\ProductLogic\bin\Release\ProductFactory.pdb
+C:\fontys\git\HKS-kantine\product-service\ProductLogic\bin\Release\AuthenticationData.pdb
+C:\fontys\git\HKS-kantine\product-service\ProductLogic\bin\Release\AuthenticationData.dll.config
+C:\fontys\git\HKS-kantine\product-service\ProductLogic\bin\Release\EntityFramework.xml
+C:\fontys\git\HKS-kantine\product-service\ProductLogic\obj\Release\ProductLogic.csprojAssemblyReference.cache
+C:\fontys\git\HKS-kantine\product-service\ProductLogic\obj\Release\ProductLogic.csproj.CoreCompileInputs.cache
+C:\fontys\git\HKS-kantine\product-service\ProductLogic\obj\Release\ProductLogic.csproj.CopyComplete
+C:\fontys\git\HKS-kantine\product-service\ProductLogic\obj\Release\ProductLogic.dll
+C:\fontys\git\HKS-kantine\product-service\ProductLogic\obj\Release\ProductLogic.pdb

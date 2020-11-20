@@ -1,0 +1,14 @@
+C:\fontys\git\HKS-kantine\product-service\ProductFactory\bin\Release\ProductFactory.dll
+C:\fontys\git\HKS-kantine\product-service\ProductFactory\bin\Release\ProductFactory.pdb
+C:\fontys\git\HKS-kantine\product-service\ProductFactory\bin\Release\AuthenticationData.dll
+C:\fontys\git\HKS-kantine\product-service\ProductFactory\bin\Release\ProductEntities.dll
+C:\fontys\git\HKS-kantine\product-service\ProductFactory\bin\Release\EntityFramework.dll
+C:\fontys\git\HKS-kantine\product-service\ProductFactory\bin\Release\AuthenticationData.pdb
+C:\fontys\git\HKS-kantine\product-service\ProductFactory\bin\Release\AuthenticationData.dll.config
+C:\fontys\git\HKS-kantine\product-service\ProductFactory\bin\Release\ProductEntities.pdb
+C:\fontys\git\HKS-kantine\product-service\ProductFactory\bin\Release\EntityFramework.xml
+C:\fontys\git\HKS-kantine\product-service\ProductFactory\obj\Release\ProductFactory.csprojAssemblyReference.cache
+C:\fontys\git\HKS-kantine\product-service\ProductFactory\obj\Release\ProductFactory.csproj.CoreCompileInputs.cache
+C:\fontys\git\HKS-kantine\product-service\ProductFactory\obj\Release\ProductFactory.csproj.CopyComplete
+C:\fontys\git\HKS-kantine\product-service\ProductFactory\obj\Release\ProductFactory.dll
+C:\fontys\git\HKS-kantine\product-service\ProductFactory\obj\Release\ProductFactory.pdb
