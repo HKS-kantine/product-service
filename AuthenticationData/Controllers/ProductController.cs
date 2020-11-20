@@ -22,13 +22,13 @@ namespace ProductData.Controllers
 
         public List<ProductDTO> Read()
         {
-            List<ProductDTO> products = db.Products.ToList();
+            List<ProductDTO> products = db.Product.ToList();
             return products;
         }
 
         public ProductDTO Read(int id)
         {
-            ProductDTO products = db.Products.Where(b => b.Id == 1).FirstOrDefault();
+            ProductDTO products = db.Product.Where(b => b.Id == 1).FirstOrDefault();
             return products;
         }
 
