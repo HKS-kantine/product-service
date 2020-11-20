@@ -1,0 +1,14 @@
+C:\fontys\git\HKS-kantine\product-service\AuthenticationData\bin\Debug\AuthenticationData.dll.config
+C:\fontys\git\HKS-kantine\product-service\AuthenticationData\bin\Debug\AuthenticationData.dll
+C:\fontys\git\HKS-kantine\product-service\AuthenticationData\bin\Debug\AuthenticationData.pdb
+C:\fontys\git\HKS-kantine\product-service\AuthenticationData\bin\Debug\EntityFramework.dll
+C:\fontys\git\HKS-kantine\product-service\AuthenticationData\bin\Debug\EntityFramework.SqlServer.dll
+C:\fontys\git\HKS-kantine\product-service\AuthenticationData\bin\Debug\ProductEntities.dll
+C:\fontys\git\HKS-kantine\product-service\AuthenticationData\bin\Debug\ProductEntities.pdb
+C:\fontys\git\HKS-kantine\product-service\AuthenticationData\bin\Debug\EntityFramework.xml
+C:\fontys\git\HKS-kantine\product-service\AuthenticationData\bin\Debug\EntityFramework.SqlServer.xml
+C:\fontys\git\HKS-kantine\product-service\AuthenticationData\obj\Debug\ProductData.csprojAssemblyReference.cache
+C:\fontys\git\HKS-kantine\product-service\AuthenticationData\obj\Debug\ProductData.csproj.CoreCompileInputs.cache
+C:\fontys\git\HKS-kantine\product-service\AuthenticationData\obj\Debug\ProductData.csproj.CopyComplete
+C:\fontys\git\HKS-kantine\product-service\AuthenticationData\obj\Debug\AuthenticationData.dll
+C:\fontys\git\HKS-kantine\product-service\AuthenticationData\obj\Debug\AuthenticationData.pdb
