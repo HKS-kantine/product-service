@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductService", "ProductSe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductData", "AuthenticationData\ProductData.csproj", "{556449EC-82BB-42DD-AC60-31381D0CC2DC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTest", "IntegrationTest\IntegrationTest.csproj", "{178F41B6-4298-4141-BBBA-28EAD6C7CAEB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{556449EC-82BB-42DD-AC60-31381D0CC2DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{556449EC-82BB-42DD-AC60-31381D0CC2DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{556449EC-82BB-42DD-AC60-31381D0CC2DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{178F41B6-4298-4141-BBBA-28EAD6C7CAEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{178F41B6-4298-4141-BBBA-28EAD6C7CAEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{178F41B6-4298-4141-BBBA-28EAD6C7CAEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{178F41B6-4298-4141-BBBA-28EAD6C7CAEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -10,9 +10,15 @@ namespace ProductData.Controllers
     public class ProductController : IProduct
     {
         private readonly CollectionAdminContext db = new CollectionAdminContext();
-        public bool Create(ProductDTO company)
+        public ProductDTO Create(ProductDTO product)
         {
-            throw new NotImplementedException();
+            if (product != null)
+            {
+                db.Product.Add(product);
+                db.SaveChanges();
+                return product;
+            }
+            return null;
         }
 
         public bool Delete(ProductDTO company)
@@ -28,13 +34,23 @@ namespace ProductData.Controllers
 
         public ProductDTO Read(int id)
         {
-            ProductDTO products = db.Product.Where(b => b.Id == 1).FirstOrDefault();
+            ProductDTO products = db.Product.Where(b => b.Id == id).FirstOrDefault();
             return products;
         }
 
-        public bool Update(ProductDTO company)
+        public bool Update(ProductDTO product)
         {
-            throw new NotImplementedException();
+            ProductDTO result = db.Product.SingleOrDefault(o => o.Id == product.Id);
+            if (result != null)
+            {
+                result.Name = product.Name;
+                result.Price = product.Price;
+                result.Image = product.Image;
+
+                db.SaveChanges();
+                return true;
+            }
+            return false;
         }
     }
 }

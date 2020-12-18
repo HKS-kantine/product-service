@@ -17,7 +17,7 @@ namespace ProductEntities
     {
         List<ProductDTO> Read();
         ProductDTO Read(int id);
-        bool Create(ProductDTO company);
+        ProductDTO Create(ProductDTO company);
         bool Update(ProductDTO company);
         bool Delete(ProductDTO company);
     }

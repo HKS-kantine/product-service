@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text.Json;
 using System.Threading.Tasks;
 using ProductLogic;
+using ProductLogic.Entities;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -31,14 +32,16 @@ namespace ProductService.Controllers
 
         // POST api/<ProductController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public string Post([FromBody] ProductEntity product)
         {
+            return JsonSerializer.Serialize(cont.Create(product));
         }
 
         // PUT api/<ProductController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        [HttpPut()]
+        public string Put([FromBody] ProductEntity product)
         {
+            return  JsonSerializer.Serialize(cont.Update(product));
         }
 
         // DELETE api/<ProductController>/5
