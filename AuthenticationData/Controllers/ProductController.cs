@@ -14,7 +14,7 @@ namespace ProductData.Controllers
         {
             if (product != null)
             {
-                db.Product.Add(product);
+                db.Products.Add(product);
                 db.SaveChanges();
                 return product;
             }
@@ -28,19 +28,19 @@ namespace ProductData.Controllers
 
         public List<ProductDTO> Read()
         {
-            List<ProductDTO> products = db.Product.ToList();
+            List<ProductDTO> products = db.Products.ToList();
             return products;
         }
 
         public ProductDTO Read(int id)
         {
-            ProductDTO products = db.Product.Where(b => b.Id == id).FirstOrDefault();
+            ProductDTO products = db.Products.Where(b => b.Id == id).FirstOrDefault();
             return products;
         }
 
         public bool Update(ProductDTO product)
         {
-            ProductDTO result = db.Product.SingleOrDefault(o => o.Id == product.Id);
+            ProductDTO result = db.Products.SingleOrDefault(o => o.Id == product.Id);
             if (result != null)
             {
                 result.Name = product.Name;

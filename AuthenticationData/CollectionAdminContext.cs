@@ -1,26 +1,29 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
+﻿using System;
+using System.Data.Entity;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ProductData
 {
     public class CollectionAdminContext : DbContext
     {
-        private const string connectionString = "Server=(localdb)\\mssqllocaldb; Database=ProductData.CollectionAdminContext; User Id=sla;Password=G4sLOj7P; MultipleActiveResultSets=true;";
-        private const string connectionStringDocker = "Server=db-server; Database=ProductData.CollectionAdminContext; User Id=sa;Password=G4sLOj7P; MultipleActiveResultSets=true;";
-        public CollectionAdminContext()
-            : base()
+        // Your context has been configured to use a 'Database' connection string from your application's 
+        // configuration file (App.config or Web.config). By default, this connection string targets the 
+        // 'CollectionData.Database' database on your LocalDb instance. 
+        // 
+        // If you wish to target a different database and/or database provider, modify the 'Database' 
+        // connection string in the application configuration file.
+        private const string connectionString = "Server=(localdb)\\mssqllocaldb; Database=CantineDatabase; Integrated Security=SSPI; MultipleActiveResultSets=true;";
+        private const string connectionStringDocker = "Server=db-server; Database=CollectionDatabase; User Id=sa;Password=G4sLOj7P; MultipleActiveResultSets=true;";
+        public CollectionAdminContext(): base(connectionString)
         {
+
         }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseSqlServer(connectionString);
-        }
+        // Add a DbSet for each entity type that you want to include in your model. For more information 
+        // on configuring and using a Code First model, see http://go.microsoft.com/fwlink/?LinkId=390109.
 
-        public virtual DbSet<ProductEntities.ProductDTO> Product { get; set; }
+        public virtual DbSet<ProductEntities.ProductDTO> Products { get; set; }
+
+
     }
 }
