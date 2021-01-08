@@ -71,3 +71,7 @@ C:\fontys\git\HKS-kantine\product-service\AuthenticationData\bin\Release\pt-BR\M
 C:\fontys\git\HKS-kantine\product-service\AuthenticationData\bin\Release\ru\Microsoft.Data.SqlClient.resources.dll
 C:\fontys\git\HKS-kantine\product-service\AuthenticationData\bin\Release\zh-Hans\Microsoft.Data.SqlClient.resources.dll
 C:\fontys\git\HKS-kantine\product-service\AuthenticationData\bin\Release\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\fontys\git\HKS-kantine\product-service\AuthenticationData\bin\Release\EntityFramework.dll
+C:\fontys\git\HKS-kantine\product-service\AuthenticationData\bin\Release\EntityFramework.SqlServer.dll
+C:\fontys\git\HKS-kantine\product-service\AuthenticationData\bin\Release\EntityFramework.xml
+C:\fontys\git\HKS-kantine\product-service\AuthenticationData\bin\Release\EntityFramework.SqlServer.xml

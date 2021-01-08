@@ -65,3 +65,6 @@ C:\fontys\git\HKS-kantine\product-service\ProductService\bin\Release\netcoreapp3
 C:\fontys\git\HKS-kantine\product-service\ProductService\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\fontys\git\HKS-kantine\product-service\ProductService\obj\Release\netcoreapp3.1\ProductService.csproj.CoreCompileInputs.cache
 C:\fontys\git\HKS-kantine\product-service\ProductService\obj\Release\netcoreapp3.1\ProductService.MvcApplicationPartsAssemblyInfo.cache
+C:\fontys\git\HKS-kantine\product-service\ProductService\bin\Release\netcoreapp3.1\EntityFramework.SqlServer.dll
+C:\fontys\git\HKS-kantine\product-service\ProductService\bin\Release\netcoreapp3.1\EntityFramework.dll
+C:\fontys\git\HKS-kantine\product-service\ProductService\bin\Release\netcoreapp3.1\System.CodeDom.dll
